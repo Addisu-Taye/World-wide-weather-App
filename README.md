@@ -1,7 +1,7 @@
 
 # Weather App
 
-A simple, user-friendly Weather Application that allows users to check the current weather and forecast for any location worldwide. The app integrates with a weather API to fetch real-time weather data and a map to show the selected location.
+
 
 ## Features
 

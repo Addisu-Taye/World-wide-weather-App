@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-panel {
+  margin: 20px 0;
+}
+
+.weather-card {
+  margin: 20px 0;
+}
+
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forecast-item {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+/* Add this CSS to your App.css */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
